@@ -17,14 +17,14 @@ binary_tree_t *binary_tree_sibling(binary_tree_t *node)
 
 	if (node->n == a->n)
 	{
-		if (b)
+		if (b->n)
 			return (b);
 		else
 			return (NULL);
 	}
 	else
 	{
-		if (a)
+		if (a->n)
 			return (a);
 		else
 			return (NULL);
